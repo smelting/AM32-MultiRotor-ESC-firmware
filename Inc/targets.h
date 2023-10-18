@@ -16,12 +16,13 @@
 //#define AIKON20X20_F051
 //#define AIKONSINGLE_F051
 //#define FLYCOLOR_F051
-#define AM32REF_F051
+//#define AM32REF_F051
 //#define BLPWR_F051
 //#define HVFLYCOLOR_F051
 //#define FLASHHOBBY_F051
 //#define SEQURE_G071
 //#define RHINO80A_F051
+#define RECTIFIED_F501
 
 
 
@@ -88,6 +89,15 @@
 #ifdef REPEAT_DRIVE_F051
 #define FILE_NAME				"REPEAT_DRIVE_F051"
 #define FIRMWARE_NAME           "REPEAT DRIVE"
+#define DEAD_TIME               25
+#define HARDWARE_GROUP_F0_B
+#define USE_SERIAL_TELEMETRY
+#define VOLTAGE_BASED_RAMP      
+#endif
+
+#ifdef RECIFITED_F051
+#define FILE_NAME				"RECTIFIED_F051"
+#define FIRMWARE_NAME           "RECTIFIED"
 #define DEAD_TIME               25
 #define HARDWARE_GROUP_F0_B
 #define USE_SERIAL_TELEMETRY
