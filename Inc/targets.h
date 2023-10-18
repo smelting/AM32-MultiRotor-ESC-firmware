@@ -95,8 +95,8 @@
 #define VOLTAGE_BASED_RAMP      
 #endif
 
-#ifdef RECIFITED_F051
-#define FILE_NAME				"RECTIFIED_F051"
+#ifdef RECTIFIED_F501
+#define FILE_NAME				"RECTIFIED_F501"
 #define FIRMWARE_NAME           "RECTIFIED"
 #define DEAD_TIME               25
 #define HARDWARE_GROUP_F0_B
